@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --purple: #4831d4;
+  --greenish: #ccf381;
+  --white: #ffffff;
+  --grey: #393737;
+}
+
+.testimonials {
+  height: 188px;
+}
+
+.myWork {
+  height: 774px;
+  background-color: var(--purple);
+}
+#myworktext {
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 4%;
+  color: var(--greenish);
+}
+#artscapename {
+  position: absolute;
+  padding-top: 59;
+  font-size: 25px;
+  left: 513px;
+  color: var(--white);
+}
+#artscapedesc {
+  position: absolute;
+  padding-top: 65px;
+  font-size: 15px;
+  left: 513px;
+  color: var(--white);
+}
+#petstateimage {
+  position: absolute;
+  top: 1678px;
+  left: 46px;
+  height: 540px;
+  width: 280px;
+  /* background-position: center; */
+  /* background-image: url("./icons/petstatescrn.png"); */
+  border-radius: 25px;
+}
+#artscapescrn {
+  position: absolute;
+  top: 1800px;
+  left: 500px;
+  height: 350px;
+  width: 700px;
+  /* background-position: center;
+  background-image: url("./icons/petstatescrn.png"); */
+  border-radius: 25px;
+}
+
+.whatIcanDo {
+  height: 774px;
+}
+.whatIcanDoData {
+  position: absolute;
+  top: 930px;
+
+  left: 70px;
+  border-radius: 25px;
+  height: 576px;
+  width: 1100px;
+  background-color: var(--grey);
+}
+#iantheprogrammer {
+  position: absolute;
+  top: 60px;
+  left: 530px;
+  height: 440px;
+  width: 500px;
+  border-radius: 25px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: var(--greenish);
+}
+
+#apis {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+#apitext {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 15px;
+  color: var(--white);
+}
+#frontendapps {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+}
+#frontendText {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  font-size: 15px;
+  color: var(--white);
+}
+
+#uiux {
+  position: absolute;
+  left: 50px;
+  top: 350px;
+}
+#uitext {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  font-size: 15px;
+  color: var(--white);
+}
+
+#whatIcanDoText {
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 4%;
+  color: var(--purple);
+}
+
+.githubicon {
+  position: absolute;
+  top: 300px;
+  left: 950px;
+}
+.linkedinicon {
+  position: absolute;
+  top: 390px;
+  left: 950px;
+}
+.githubText {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: var(--white);
+
+  position: absolute;
+  top: 330px;
+  left: 1020px;
+}
+.linkedinText {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: var(--white);
+
+  position: absolute;
+  top: 420px;
+  left: 1020px;
+}
+
+.title2 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  text-align: left;
+  top: 421px;
+  left: 131px;
+  font-size: 22px;
+  color: var(--white);
+}
+#functional {
+  top: 450px;
+}
+
+.text3 {
+  font-family: "Poppins", sans-serif;
+
+  text-align: left;
+
+  font-size: 10px;
+  color: var(--greenish);
+}
+#highly {
+  position: absolute;
+  top: 611px;
+  left: 70px;
+  font-size: 15px;
+}
+#database {
+  position: absolute;
+  top: 626px;
+  left: 70px;
+  font-size: 15px;
+}
+#lan {
+  position: absolute;
+  top: 641px;
+  left: 70px;
+  font-size: 15px;
+}
+
+.text4 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 611px;
+  text-align: left;
+  left: 397px;
+  font-size: 15px;
+  color: var(--greenish);
+}
+#design {
+  position: absolute;
+  top: 626px;
+  left: 397px;
+  font-size: 15px;
+}
+#come {
+  position: absolute;
+  top: 641px;
+  left: 397px;
+  font-size: 15px;
+}
+
+.profilePic {
+  position: absolute;
+  top: 201px;
+  left: 616px;
+  z-index: 10;
+  height: 304px;
+  width: 269px;
+  background-position: center;
+  background-image: url("../home/awuoh.PNG");
+
+  /* background-image: "../home/awuoh.PNG"; */
+}
+.profilePic2 {
+  position: absolute;
+
+  top: 246px;
+  left: 633px;
+  height: 290px;
+  width: 269px;
+  border: solid;
+  border-color: var(--white);
+}
+
+.headerItems {
+  font-family: "Poppins", sans-serif;
+  top: 118px;
+  left: 590px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: var(--white);
+}
+#home {
+  position: absolute;
+  top: 118px;
+  left: 590px;
+}
+#skills {
+  position: absolute;
+  top: 118px;
+  left: 720px;
+}
+#myWork {
+  position: absolute;
+  top: 118px;
+
+  left: 845px;
+}
+#contactMe {
+  position: absolute;
+  top: 118px;
+
+  left: 996px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+}
+#jina {
+  padding-top: 97px;
+  text-align: left;
+  margin-left: 4%;
+  color: var(--greenish);
+}
+.junior {
+  font-family: "Poppins", sans-serif;
+  font-size: 4em;
+  position: absolute;
+  top: 226px;
+  left: 131px;
+  /* padding-top: 120px; */
+  /* text-align: left; */
+  /* margin-left: 9%; */
+  color: var(--greenish);
+}
+.developer {
+  font-family: "Poppins", sans-serif;
+  font-size: 4em;
+  position: absolute;
+  top: 290px;
+  left: 131px;
+  /* padding-top: 120px; */
+  /* text-align: left; */
+  /* margin-left: 9%; */
+  color: var(--greenish);
+}
+
+.landingPurple {
+  margin: 0;
+  height: 774px;
+  background-color: var(--purple);
+  vertical-align: top;
+}
