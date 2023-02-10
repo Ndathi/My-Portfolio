@@ -1,11 +1,94 @@
-.myProfile {
-  margin: none;
-  padding: none;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-  .landingPurple {
-    box-sizing: border-box;
-    margin: 0;
-    background-color: purple;
-    vertical-align: top;
+$purple: #4831d4;
+$sapGreen: #ccf381;
+$white: #ffff;
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4em;
+  color: $sapGreen;
+}
+.landingPurple {
+  height: 774px;
+  background-color: $purple;
+
+  .landingpagecontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .leftProfile {
+      display: flex;
+      flex-direction: column;
+
+      .title2 {
+        font-family: "Poppins", sans-serif;
+
+        font-size: 22px;
+        color: $white;
+      }
+      .purpleleftgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .text3 {
+          color: $sapGreen;
+        }
+        .text4 {
+          color: $sapGreen;
+        }
+      }
+    }
+
+    .rightProfile {
+      display: absolute;
+      .profilePic {
+        position: absolute;
+        top: 201px;
+        left: 616px;
+        z-index: 10;
+        height: 304px;
+        width: 269px;
+        background-position: center;
+        background-image: url("../home/awuoh.PNG");
+      }
+      .profilePic2 {
+        position: absolute;
+
+        top: 246px;
+        left: 633px;
+        height: 290px;
+        width: 269px;
+        border: solid;
+        border-color: var(--white);
+      }
+
+      .rightprofilegrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        #first {
+          margin-top: 20%;
+          margin-bottom: 3%;
+        }
+        .downloadresume {
+          margin-top: 3%;
+          margin-left: 50px;
+        }
+        .iconandtext {
+          display: flex;
+          flex-direction: row;
+
+          p {
+            color: white;
+            padding-top: 30%;
+          }
+        }
+      }
+    }
   }
 }
